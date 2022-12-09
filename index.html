@@ -8,10 +8,30 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    /* return top */
+    #btnTop {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
 </head>
 
 <body>
-  <div id="app"></div>
+  <div>
+    <button onclick="returnTop()" id="btnTop" title="返回顶部"><img src="top.jpg"></button>
+  </div>
+  <div id="app">文档正在努力加载中...</div>
   <script>
     window.$docsify = {
       name: '',
@@ -22,6 +42,22 @@
       loadSidebar: true,
       subMaxlevel: 3,
       auto2top: true
+    }
+  </script>
+  <script>
+    window.onscroll = function () {
+      scollFunction()
+    };
+    function scollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 60) {
+        document.getElementById("btnTop").style.display = "block";
+      } else {
+        document.getElementById("btnTop").style.display = "none";
+      }
+    }
+    function returnTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
   </script>
   <!-- Docsify v4 -->
