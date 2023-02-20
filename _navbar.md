@@ -3,4 +3,5 @@
    * [Java](/article/Java/_sidebar.md)
    * [Cesium](/article/Cesium/_sidebar.md)
    * [前端](/article/JS/vue/_sidebar.md)
+   * [GIS](/article/GIS/_sidebar.md)
 * 技术源码
