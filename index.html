@@ -1,121 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <title>资源库</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
-  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
-  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <!-- 侧边栏文件夹效果 -->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />-->
   <style>
-    /* return top */
-    #btnTop {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 30px;
-      z-index: 99;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 10px;
-      border-radius: 50%;
-      width: 50px;
-      height: 50px;
+    .markdown-section code {
+      font-weight: 400;
     }
   </style>
 </head>
-
 <body>
 <nav>
-     <ul>
-         <li>
-             页面
-             <ul>
-                 <li><a href="#">封面</a></li>
-                 <li><a href="#/README">首页</a></li>
-             </ul>
-         </li>
-         <li>
-             分类
-             <ul>
-                 <li><a href="#/MQ/README">MQ</a></li>
-                 <li><a href="#/DDD/README">DDD</a></li>
-                 <li><a href="#/UML/README">UML</a></li>
-                 <li><a href="#/Spring/README">Spring</a></li>
-                 <li><a href="#/SpringBoot/README">SpringBoot</a></li>
-                 <li><a href="#/SpringCloud/README">SpringCloud</a></li>
-                 <li><a href="#/Java基础/README">Java基础</a></li>
-                 <li><a href="#/Skill/README">实用技巧</a></li>
-                 <li><a href="#/Architecture/README">架构设计</a></li>
-                 <li><a href="#/Specification/README">开发规范</a></li>
-                 <li><a href="#/Algorithm/README">算法&数据结构</a></li>
-             </ul>
-         </li>
-         <li>
-             精品文章
-             <ul>
-                 <li><a href="#/DDD/DDD系列第一讲：Domain-Primitive">DDD系列第一讲：Domain-Primitive</a></li>
-                 <li><a href="#/Skill/如何用docsify改造你的Github-Pages">如何用docsify改造你的Github-Pages</a></li>
-                 <li><a href="#/SpringBoot/mica-auto">SpringBoot Starter开发利器：mica-auto</a></li>
-                 <li><a href="#/Java基础/线程池/Java线程池源码解析">Java线程池源码解析</a></li>
-                 <li><a href="#/Java基础/线程池/如何撸一个mini线程池">如何撸一个mini线程池</a></li>
-             </ul>
-         </li>
-     </ul>
+  <ul>
+    <li>
+      页面
+      <ul>
+        <li><a href="#">封面</a></li>
+        <li><a href="README.md">首页</a></li>
+      </ul>
+    </li>
+    <li>
+      分类
+      <ul>
+        <li><a href="#/Architect/README">超级架构师</a></li>
+        <li><a href="#/SalaryIncrease/README">涨薪秘籍</a></li>
+        <li><a href="#/Java/README">Java</a></li>
+        <li><a href="#/Os/README">操作系统</a></li>
+        <li><a href="#/Network/README">网络</a></li>
+        <li><a href="#/Algorithm/README">算法</a></li>
+        <li><a href="#/Database/README">数据库</a></li>
+        <li><a href="#/UML/README">UML</a></li>
+        <li><a href="#/Architecture/README">架构设计</a></li>
+        <li><a href="#/DesignPattern/README">设计模式</a></li>
+        <li><a href="#/Skill/README">实用技巧</a></li>
+        <li><a href="#/Specification/README">开发规范</a></li>
+        <li><a href="#/Middleware/README">中间件</a></li>
+      </ul>
+    </li>
+    <li>
+      超级架构师
+      <ul>
+        <li><a href="#/Architect/数据库模式">数据库模式</a></li>
+        <li><a href="#/Architect/DevOps初学指南">DevOps初学指南</a></li>
+        <li><a href="#/Architect/架构师定义、职业素质和应具备的能力">架构师定义、职业素质和应具备的能力</a></li>
+      </ul>
+    </li>
+    <li>
+      涨薪秘籍
+      <ul>
+        <li><a href="#/SalaryIncrease/1.5W字长文讲解分布式系统">1.5W字长文讲解分布式系统</a></li>
+        <li><a href="#/SalaryIncrease/阿里巴巴10个顶级开源项目">阿里巴巴10个顶级开源项目</a></li>
+      </ul>
+    </li>
+    <li>
+      精品文章
+      <ul>
+        <li><a href="#/Architecture/DDD/DDD系列第一讲：Domain-Primitive">DDD系列第一讲：Domain-Primitive</a></li>
+        <li><a href="#/Skill/如何用docsify改造你的Github-Pages">如何用docsify改造你的Github-Pages</a></li>
+        <li><a href="#/Java/SpringBoot/mica-auto">SpringBoot Starter开发利器：mica-auto</a></li>
+        <li><a href="#/Java/Java线程池源码解析">Java线程池源码解析</a></li>
+        <li><a href="#/Java/如何撸一个mini线程池">如何撸一个mini线程池</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
-  <div>
-    <button onclick="returnTop()" id="btnTop" title="返回顶部"><img src="top.jpg"></button>
-  </div>
-  <div id="app">文档正在努力加载中...</div>
-  <script>
-    window.$docsify = {
-      name: '',
-      repo: '',
-      coverpage: true,
-      onlyCover: true,
-      loadNavbar: true,
-      loadSidebar: true,
-      subMaxlevel: 3,
-      auto2top: true,
-      search: {   // 搜索
-        paths: 'auto',
-        placeholder: '🔍 Type to search ',
-        noData: '😞 No Results! ',
-        depth: 6
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'JAVA3C',
+    repo: 'https://github.com/rameosu/java3c',
+    auto2top: true,
+    coverpage: true,
+    loadSidebar: true,
+    subMaxLevel: 5,
+    sidebarDisplayLevel: 0,
+    pagination: {
+      previousText: "上一篇",
+      nextText: "下一篇",
+      // crossChapter: true,
+      // crossChapterText: true,
+    },
+    search: {
+      paths: 'auto',
+      placeholder: '🔍 搜索 ',
+      noData: '😞 No Results! ',
+      depth: 6
+    },
+    count:{
+      countable:true,
+      position:'bottom',
+      fontsize: "0.9em",
+      color: "rgb(90,90,90)",
+      language:'chinese'
+    },
+    plantuml: {
+      skin: 'default',
+    },
+    darklightTheme: {
+      defaultTheme: 'light',
+      siteFont: 'Source Sans Pro,Helvetica Neue,Arial,sans-serif',
+      codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+      bodyFontSize: '15px',
+      dark: {
+        background: 'rgb(28,32,34)',
+        highlightColor: '#e96900',
+        codeBackgroundColor: 'rgb(34,39,46)',
+        codeTextColor: '#b4b4b4',
       },
-
-
-
-
-    }
-  </script>
-  <script>
-    window.onscroll = function () {
-      scollFunction()
-    };
-    function scollFunction() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 60) {
-        document.getElementById("btnTop").style.display = "block";
-      } else {
-        document.getElementById("btnTop").style.display = "none";
+      light: {
+        highlightColor: '#e96900',
       }
-    }
-    function returnTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
-  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+    },
+    plugins: [
+      function (hook, vm) {
+        hook.beforeEach(function (content) {
+          const en = vm.route.file.indexOf("README_EN") > -1;
+          if (/githubusercontent\.com/.test(vm.route.file)) {
+            url = vm.route.file
+                    .replace("raw.githubusercontent.com", "github.com")
+                    .replace(/\/main/, "/blob/main");
+          } else {
+            url =
+                    "https://github.com/rameosu/java3c/tree/main/docs/" +
+                    vm.route.file;
+          }
+          const github = `[GitHub](${url})`;
+          const editHtml = en
+                  ? `:memo: Edit on ${github}\n`
+                  : `:memo: 在 ${github}编辑\n`;
+          if (vm.route.path == "/") {
+            return editHtml + content;
+          }
+          // const subscription = `
+          //     <h2>打赏</h2>
+          //     如果您觉得作者的文章对您有所帮助，可以打赏 <b style="color: #e96900">0.88元</b> 支持一下作者，这也将成为作者持续更新，持续开源文章的动力。
+          //     </br>
+          //     </br>
+          //     当然，也可以加我个人微信（备注：<b style="color: #e96900">GitHub</b>），一起交流进步。
+          //     </br>
+          //     </br>
+          //     <table>
+          //         <tr>
+          //           <td align="center" style="width: 200px;">
+          //             <a href="https://rameosu.github.io/java3c">
+          //               <img src="./assets/rameo/wechat_pay.jpg" style="width: 400px;"><br>
+          //               <sub>微信扫码打赏</sub>
+          //             </a><br>
+          //           </td>
+          //           <td align="center" style="width: 200px;">
+          //             <a href="https://rameosu.github.io/java3c">
+          //               <img src="./assets/rameo/wechat_qrcode.jpg" style="width: 400px;"><br>
+          //               <sub>个人微信</sub>
+          //             </a><br>
+          //           </td>
+          //         </tr>
+          //     </table>
+          // `;
+          const subscription = `
+                        <h2>🎁 福利</h2>
+                        微信搜索公众号 ⭐ <b style="color: red">程序员有意思</b> ⭐ 或者扫描下面的二维码关注，即可获得最新、最全、最实用的学习资料。
+                        </br>
+                        <img src="./assets/rameo/dynamic-code.png"><br>
+                    `;
+          return editHtml + content + `<br>` + subscription;
+        });
+        hook.afterEach(function (html) {
+          const footer = [
+            "<footer style='text-align: center;'>",
+            '<span>Copyright © 2021-2024 <a href="https://github.com/rameosu/java3c" target="_blank">Java3C</a>. All rights reserved.',
+            "</footer>",
+          ].join("");
+          return html + footer;
+        });
+      },
+    ],
+  };
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markup.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-xml-doc.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
-
 </html>

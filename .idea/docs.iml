@@ -11,5 +11,23 @@
     <orderEntry type="library" name="docsify-mermaid" level="application" />
     <orderEntry type="library" name="docsify-plantuml" level="application" />
     <orderEntry type="library" name="docsify" level="application" />
+    <orderEntry type="library" name="zoom-image" level="application" />
+    <orderEntry type="library" name="prism-bash" level="application" />
+    <orderEntry type="library" name="prism-json" level="application" />
+    <orderEntry type="library" name="prism-java" level="application" />
+    <orderEntry type="library" name="prism-python" level="application" />
+    <orderEntry type="library" name="prism-xml-doc" level="application" />
+    <orderEntry type="library" name="countable" level="application" />
+    <orderEntry type="library" name="prism-c" level="application" />
+    <orderEntry type="library" name="prism-yaml" level="application" />
+    <orderEntry type="library" name="prism-cpp" level="application" />
+    <orderEntry type="library" name="docsify-sidebar-collapse" level="application" />
+    <orderEntry type="library" name="prism-markup" level="application" />
+    <orderEntry type="library" name="prism-sql" level="application" />
+    <orderEntry type="library" name="prism-properties" level="application" />
+    <orderEntry type="library" name="docsify-pagination" level="application" />
+    <orderEntry type="library" name="docsify-copy-code" level="application" />
+    <orderEntry type="library" name="style" level="application" />
+    <orderEntry type="library" name="sidebar" level="application" />
   </component>
 </module>
