@@ -29,5 +29,6 @@
     <orderEntry type="library" name="docsify-copy-code" level="application" />
     <orderEntry type="library" name="style" level="application" />
     <orderEntry type="library" name="sidebar" level="application" />
+    <orderEntry type="library" name="emoji" level="application" />
   </component>
 </module>

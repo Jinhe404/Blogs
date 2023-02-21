@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$" libraries="{countable, docsify, docsify-copy-code, docsify-mermaid, docsify-pagination, docsify-plantuml, docsify-sidebar-collapse, index, mermaid, prism-bash, prism-c, prism-cpp, prism-java, prism-json, prism-markup, prism-properties, prism-python, prism-sql, prism-xml-doc, prism-yaml, sidebar, style, vue, zoom-image}" />
+    <file url="file://$PROJECT_DIR$" libraries="{countable, docsify, docsify-copy-code, docsify-mermaid, docsify-pagination, docsify-plantuml, docsify-sidebar-collapse, emoji, index, mermaid, prism-bash, prism-c, prism-cpp, prism-java, prism-json, prism-markup, prism-properties, prism-python, prism-sql, prism-xml-doc, prism-yaml, sidebar, style, vue, zoom-image}" />
   </component>
 </project>
