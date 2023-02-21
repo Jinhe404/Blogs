@@ -1,59 +1,93 @@
 <!-- - [:octocat: 首页](/README) -->
 
 - **Cesium**
-    - [数据库模式](/Architect/数据库模式.md)
-    - [DevOps初学指南](/Architect/DevOps初学指南.md)
-    - [架构师定义、职业素质和应具备的能力](/Architect/架构师定义、职业素质和应具备的能力.md)
-- **涨薪秘籍**
-    - [1.5W字长文讲解分布式系统](/SalaryIncrease/1.5W字长文讲解分布式系统.md)
-    - [阿里巴巴10个顶级开源项目](/SalaryIncrease/阿里巴巴10个顶级开源项目.md)
+    - [Cesium发展历史](/Cesium/cesium发展历史.md)
+    - []()
+    - []()
+- **GIS**
+    - [GIS概论](/GIS/GIS概论.md)
+    - [GIS坐标系](/GIS/GIS坐标系.md)
 
 <!-- - :memo: 目录 -->
 - **Java**
-    - [Java线程池源码解析](/Java/Java线程池源码解析.md)
-    - [如何撸一个mini线程池](/Java/如何撸一个mini线程池.md)
-    - [优雅的对象转换-MapStruct](/Java/优雅的对象转换-MapStruct.md)
-    - [Spring实用代码技巧](/Java/Spring/Spring实用代码技巧.md)
-    - [RedisTemplate使用不当导致的线上事故](/Java/Spring/RedisTemplate使用不当导致的线上事故.md)
-    - [SpringBoot Starter开发利器：mica-auto](/Java/SpringBoot/mica-auto.md)
-    - [SpringBoot接入SkyWalking分布式链路追踪](/Java/SpringBoot/SpringBoot接入SkyWalking分布式链路追踪.md)
-    - [SpringBoot统一接口返回和全局异常处理](/Java/SpringBoot/SpringBoot统一接口返回和全局异常处理.md)
-    - [还在重复造轮子？hutool一键搞定](/Java/还在重复造轮子？hutool一键搞定.md)
-    - [Java如何实现DistinctBy？](/Java/Java如何实现DistinctBy.md)
-    - [一文看懂死锁](/Java/一文看懂死锁.md)
+    - [Java发展史](/Java/Java发展史.md)
+    - [Java基础语法](/Java/Java基础语法.md)
+    - [Java数组概念](/Java/Java数组概念.md)
+    - [Java流程控制语句](/Java/Java流程控制语句.md)
+
+[comment]: <> (    - [RedisTemplate使用不当导致的线上事故]&#40;/Java/Spring/RedisTemplate使用不当导致的线上事故.md&#41;)
+
+[comment]: <> (    - [SpringBoot Starter开发利器：mica-auto]&#40;/Java/SpringBoot/mica-auto.md&#41;)
+
+[comment]: <> (    - [SpringBoot接入SkyWalking分布式链路追踪]&#40;/Java/SpringBoot/SpringBoot接入SkyWalking分布式链路追踪.md&#41;)
+
+[comment]: <> (    - [SpringBoot统一接口返回和全局异常处理]&#40;/Java/SpringBoot/SpringBoot统一接口返回和全局异常处理.md&#41;)
+
+[comment]: <> (    - [还在重复造轮子？hutool一键搞定]&#40;/Java/还在重复造轮子？hutool一键搞定.md&#41;)
+
+[comment]: <> (    - [Java如何实现DistinctBy？]&#40;/Java/Java如何实现DistinctBy.md&#41;)
+
+[comment]: <> (    - [一文看懂死锁]&#40;/Java/一文看懂死锁.md&#41;)
 - **操作系统**
 - **网络**
 - **算法**
-    - [以五子棋为例硬撸稀疏数组](/Algorithm/以五子棋为例硬撸稀疏数组.md)
-    - [撸一撸限流算法](/Algorithm/撸一撸限流算法.md)
+
+[comment]: <> (    - [以五子棋为例硬撸稀疏数组]&#40;/Algorithm/以五子棋为例硬撸稀疏数组.md&#41;)
+
+[comment]: <> (    - [撸一撸限流算法]&#40;/Algorithm/撸一撸限流算法.md&#41;)
 - **数据库**
-    - [MySQL查看数据库容量](/Database/MySQL查看数据库容量.md)
-- **UML**
-    - [设计模式（脑图版）](/UML/设计模式（脑图版）.md)
-    - [UML统一建模语言](/UML/UML统一建模语言.md)
-    - [UML类图](/UML/UML类图.md)
-    - [程序员画图神器-PlantUml](/UML/程序员画图神器-PlantUml.md)
-    - [系统架构设计核心要素（脑图版）](/UML/系统架构设计核心要素（脑图版）.md)
-- **架构设计**
-    - **凤凰架构读书笔记**
-        - [架构演进](/Architecture/Phoenix/凤凰架构读书笔记-架构演进.md)
-        - [演示工程](/Architecture/Phoenix/凤凰架构读书笔记-演示工程.md)
-        - [远程服务](/Architecture/Phoenix/凤凰架构读书笔记-远程服务.md)
-        - [事务处理](/Architecture/Phoenix/凤凰架构读书笔记-事务处理.md)
-    - [系统架构设计核心要素（大纲版）](/Architecture/系统架构设计核心要素（大纲版）.md)
-    - [服务限流的思路](/Architecture/服务限流的思路.md)
-    - [服务降级的思路](/Architecture/服务降级的思路.md)
-    - [构建高性能Web站点](/Architecture/构建高性能Web站点.md)
-    - [SpringCloud整体架构](/Architecture/SpringCloud/SpringCloud整体架构.md)
-    - [DDD系列第一讲：Domain Primitive](/Architecture/DDD/DDD系列第一讲：Domain-Primitive.md)
-    - [DDD系列第二讲：应用架构](/Architecture/DDD/DDD系列第二讲：应用架构.md)
-    - [DDD系列第三讲：Repository模式](/Architecture/DDD/DDD系列第三讲：Repository模式.md)
-    - [DDD系列第四讲：领域层设计规范](/Architecture/DDD/DDD系列第四讲：领域层设计规范.md)
-    - [DDD系列第五讲：聊聊如何避免写流水账代码](/Architecture/DDD/DDD系列第五讲：聊聊如何避免写流水账代码.md)
-- **设计模式**
-    - [七大设计原则](/DesignPattern/七大设计原则.md)
-    - [23种设计模式](/DesignPattern/23种设计模式.md)
-    - [状态模式之订单实战](/DesignPattern/状态模式之订单实战.md)
+
+[comment]: <> (    - [MySQL查看数据库容量]&#40;/Database/MySQL查看数据库容量.md&#41;)
+- **JavaScript**
+    - [Vuex](/JS/vue/Vuex.md)
+
+[comment]: <> (    - [UML统一建模语言]&#40;/UML/UML统一建模语言.md&#41;)
+
+[comment]: <> (    - [UML类图]&#40;/UML/UML类图.md&#41;)
+
+[comment]: <> (    - [程序员画图神器-PlantUml]&#40;/UML/程序员画图神器-PlantUml.md&#41;)
+
+[comment]: <> (    - [系统架构设计核心要素（脑图版）]&#40;/UML/系统架构设计核心要素（脑图版）.md&#41;)
+
+[comment]: <> (- **架构设计**)
+
+[comment]: <> (    - **凤凰架构读书笔记**)
+
+[comment]: <> (        - [架构演进]&#40;/Architecture/Phoenix/凤凰架构读书笔记-架构演进.md&#41;)
+
+[comment]: <> (        - [演示工程]&#40;/Architecture/Phoenix/凤凰架构读书笔记-演示工程.md&#41;)
+
+[comment]: <> (        - [远程服务]&#40;/Architecture/Phoenix/凤凰架构读书笔记-远程服务.md&#41;)
+
+[comment]: <> (        - [事务处理]&#40;/Architecture/Phoenix/凤凰架构读书笔记-事务处理.md&#41;)
+
+[comment]: <> (    - [系统架构设计核心要素（大纲版）]&#40;/Architecture/系统架构设计核心要素（大纲版）.md&#41;)
+
+[comment]: <> (    - [服务限流的思路]&#40;/Architecture/服务限流的思路.md&#41;)
+
+[comment]: <> (    - [服务降级的思路]&#40;/Architecture/服务降级的思路.md&#41;)
+
+[comment]: <> (    - [构建高性能Web站点]&#40;/Architecture/构建高性能Web站点.md&#41;)
+
+[comment]: <> (    - [SpringCloud整体架构]&#40;/Architecture/SpringCloud/SpringCloud整体架构.md&#41;)
+
+[comment]: <> (    - [DDD系列第一讲：Domain Primitive]&#40;/Architecture/DDD/DDD系列第一讲：Domain-Primitive.md&#41;)
+
+[comment]: <> (    - [DDD系列第二讲：应用架构]&#40;/Architecture/DDD/DDD系列第二讲：应用架构.md&#41;)
+
+[comment]: <> (    - [DDD系列第三讲：Repository模式]&#40;/Architecture/DDD/DDD系列第三讲：Repository模式.md&#41;)
+
+[comment]: <> (    - [DDD系列第四讲：领域层设计规范]&#40;/Architecture/DDD/DDD系列第四讲：领域层设计规范.md&#41;)
+
+[comment]: <> (    - [DDD系列第五讲：聊聊如何避免写流水账代码]&#40;/Architecture/DDD/DDD系列第五讲：聊聊如何避免写流水账代码.md&#41;)
+
+[comment]: <> (- **设计模式**)
+
+[comment]: <> (    - [七大设计原则]&#40;/DesignPattern/七大设计原则.md&#41;)
+
+[comment]: <> (    - [23种设计模式]&#40;/DesignPattern/23种设计模式.md&#41;)
+
+[comment]: <> (    - [状态模式之订单实战]&#40;/DesignPattern/状态模式之订单实战.md&#41;)
 - **实用技巧**
     - [如何用docsify改造你的Github-Pages](/Skill/如何用docsify改造你的Github-Pages.md)
     - [docsify进阶使用](/Skill/docsify进阶使用.md)
@@ -68,12 +102,21 @@
     - [MySQL数据库开发规范](/Specification/MySQL数据库开发规范.md)
     - [写JAVA的好习惯](/Specification/写JAVA的好习惯.md)
     - [写SQL的好习惯](/Specification/写SQL的好习惯.md)
-- **中间件**
-    - [如何用RabbitMQ批处理能力优化服务](/Middleware/MQ/如何用RabbitMQ批处理能力优化服务.md)
-    - [Redis事务](/Middleware/Redis/Redis事务.md)
-    - [Redis持久化](/Middleware/Redis/Redis持久化.md)
-    - [Redis分布式锁](/Middleware/Redis/Redis分布式锁.md)
-    - [Redis的典型应用场景](/Middleware/Redis/Redis的应用场景.md)
-    - [Redis热key的发现与解决](/Middleware/Redis/Redis热key的发现与解决.md)
-    - [Redis内存淘汰策略和过期键清除策略](/Middleware/Redis/Redis内存淘汰策略和过期键清除策略.md)
-    - [Redisson分布式锁的AOP实现](/Middleware/Redis/Redisson分布式锁的AOP实现.md)
+
+[comment]: <> (- **中间件**)
+
+[comment]: <> (    - [如何用RabbitMQ批处理能力优化服务]&#40;/Middleware/MQ/如何用RabbitMQ批处理能力优化服务.md&#41;)
+
+[comment]: <> (    - [Redis事务]&#40;/Middleware/Redis/Redis事务.md&#41;)
+
+[comment]: <> (    - [Redis持久化]&#40;/Middleware/Redis/Redis持久化.md&#41;)
+
+[comment]: <> (    - [Redis分布式锁]&#40;/Middleware/Redis/Redis分布式锁.md&#41;)
+
+[comment]: <> (    - [Redis的典型应用场景]&#40;/Middleware/Redis/Redis的应用场景.md&#41;)
+
+[comment]: <> (    - [Redis热key的发现与解决]&#40;/Middleware/Redis/Redis热key的发现与解决.md&#41;)
+
+[comment]: <> (    - [Redis内存淘汰策略和过期键清除策略]&#40;/Middleware/Redis/Redis内存淘汰策略和过期键清除策略.md&#41;)
+
+[comment]: <> (    - [Redisson分布式锁的AOP实现]&#40;/Middleware/Redis/Redisson分布式锁的AOP实现.md&#41;)
