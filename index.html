@@ -8,6 +8,10 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
   <style>
     /* return top */
     #btnTop {
@@ -28,6 +32,43 @@
 </head>
 
 <body>
+<nav>
+     <ul>
+         <li>
+             页面
+             <ul>
+                 <li><a href="#">封面</a></li>
+                 <li><a href="#/README">首页</a></li>
+             </ul>
+         </li>
+         <li>
+             分类
+             <ul>
+                 <li><a href="#/MQ/README">MQ</a></li>
+                 <li><a href="#/DDD/README">DDD</a></li>
+                 <li><a href="#/UML/README">UML</a></li>
+                 <li><a href="#/Spring/README">Spring</a></li>
+                 <li><a href="#/SpringBoot/README">SpringBoot</a></li>
+                 <li><a href="#/SpringCloud/README">SpringCloud</a></li>
+                 <li><a href="#/Java基础/README">Java基础</a></li>
+                 <li><a href="#/Skill/README">实用技巧</a></li>
+                 <li><a href="#/Architecture/README">架构设计</a></li>
+                 <li><a href="#/Specification/README">开发规范</a></li>
+                 <li><a href="#/Algorithm/README">算法&数据结构</a></li>
+             </ul>
+         </li>
+         <li>
+             精品文章
+             <ul>
+                 <li><a href="#/DDD/DDD系列第一讲：Domain-Primitive">DDD系列第一讲：Domain-Primitive</a></li>
+                 <li><a href="#/Skill/如何用docsify改造你的Github-Pages">如何用docsify改造你的Github-Pages</a></li>
+                 <li><a href="#/SpringBoot/mica-auto">SpringBoot Starter开发利器：mica-auto</a></li>
+                 <li><a href="#/Java基础/线程池/Java线程池源码解析">Java线程池源码解析</a></li>
+                 <li><a href="#/Java基础/线程池/如何撸一个mini线程池">如何撸一个mini线程池</a></li>
+             </ul>
+         </li>
+     </ul>
+</nav>
   <div>
     <button onclick="returnTop()" id="btnTop" title="返回顶部"><img src="top.jpg"></button>
   </div>
@@ -41,7 +82,17 @@
       loadNavbar: true,
       loadSidebar: true,
       subMaxlevel: 3,
-      auto2top: true
+      auto2top: true,
+      search: {   // 搜索
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: '😞 No Results! ',
+        depth: 6
+      },
+
+
+
+
     }
   </script>
   <script>
@@ -59,9 +110,12 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
+  <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
 </body>
 
 </html>
