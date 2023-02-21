@@ -1,13 +1,13 @@
 
 
-# 📚 Java开发、架构师升职加薪必备
+# 📚 GIS开发、升职加薪必备
 
 | Cesium        | GIS    | Java        | 算法               | 数据库      | JavaScript         | 架构设计    | 设计模式    | 实用技巧    | 开发规范     | 中间件              |
 | ----------- | ----------- | ----------- | ------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | ------------ | ------------------- |
 | [☕](#nav-1) | [💻](#nav-1) | [☁️](#nav-3) | [✏️](#nav-4) | [💾](#nav-5) | [📐](#nav-6) | [👑](#nav-7) | [🎯](#nav-8) | [🔧](#nav-9) | [📘](#nav-10) | [🚀](#nav-10) |
 
-![logo](assets/rameo/logo.png)
-![poster](assets/rameo/poster.jpg)
+![logo](assert/cgnb/logo.png)
+![poster](assert/cgnb/image.png)
 
 ## 📝 Cesium
 - [Cesium发展历史](/Cesium/cesium发展历史.md)
@@ -129,4 +129,6 @@
 - [Redis内存淘汰策略和过期键清除策略](/Middleware/Redis/Redis内存淘汰策略和过期键清除策略.md)
 - [Redisson分布式锁的AOP实现](/Middleware/Redis/Redisson分布式锁的AOP实现.md)
 
-gn="" height="137px" src="https://github-readme-stats.vercel.app/api?username=jinhe404&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" /><img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jinhe404&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" />
+## 今年汇总 ✨
+
+<img align="" height="137px" src="https://github-readme-stats.vercel.app/api?username=JINhe404&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&line_height=21&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite&locale=cn" /><img align="" height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jinhe404&hide_title=true&hide_border=true&layout=compact&bg_color=0,73FA79,73FDFF,D783FF&theme=graywhite&locale=cn" />

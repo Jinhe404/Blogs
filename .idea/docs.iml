@@ -30,5 +30,6 @@
     <orderEntry type="library" name="style" level="application" />
     <orderEntry type="library" name="sidebar" level="application" />
     <orderEntry type="library" name="emoji" level="application" />
+    <orderEntry type="library" name="prism-markdown" level="application" />
   </component>
 </module>
