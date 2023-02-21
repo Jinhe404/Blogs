@@ -1,4 +1,5 @@
 <!-- _coverpage.md -->
+![logo](assert/cgnb/logo.png)
 # 资源库 <small>0.1</small>
 
 > 一位正在努力成长的GIS程序猿
