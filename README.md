@@ -11,6 +11,9 @@
 
 ## 📝 Cesium
 - [Cesium发展历史](/Cesium/cesium发展历史.md)
+- [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
+- [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
+- [Cesium面试题](/Cesium/Cesium面试题.md)
 
 [comment]: <> (- [DevOps初学指南]&#40;/Architect/DevOps初学指南.md&#41;)
 

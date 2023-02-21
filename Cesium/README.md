@@ -7,6 +7,7 @@
         - [Cesium发展历史](/Cesium/cesium发展历史.md)
         - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
         - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
+        - [Cesium面试题](/Cesium/Cesium面试题.md)
 
 [comment]: <> (    - [系统架构设计核心要素（大纲版）]&#40;/Architecture/系统架构设计核心要素（大纲版）.md&#41;)
 
