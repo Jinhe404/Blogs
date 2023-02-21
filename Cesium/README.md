@@ -5,9 +5,8 @@
 - 👑 Cesium
     - Cesium简介
         - [Cesium发展历史](/Cesium/cesium发展历史.md)
-        - [演示工程](/Architecture/Phoenix/凤凰架构读书笔记-演示工程.md)
-        - [远程服务](/Architecture/Phoenix/凤凰架构读书笔记-远程服务.md)
-        - [事务处理](/Architecture/Phoenix/凤凰架构读书笔记-事务处理.md)
+        - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
+        - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
 
 [comment]: <> (    - [系统架构设计核心要素（大纲版）]&#40;/Architecture/系统架构设计核心要素（大纲版）.md&#41;)
 

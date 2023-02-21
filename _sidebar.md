@@ -2,8 +2,8 @@
 
 - **Cesium**
     - [Cesium发展历史](/Cesium/cesium发展历史.md)
-    - []()
-    - []()
+    - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
+    - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
 - **GIS**
     - [GIS概论](/GIS/GIS概论.md)
     - [GIS坐标系](/GIS/GIS坐标系.md)
