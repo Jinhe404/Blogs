@@ -1,6 +1,7 @@
 # 📚 JS
-![logo](../assets/rameo/logo.png)
-![poster](../assets/rameo/poster.jpg)
+![logo](../assert/cgnb/logo.png)
+
+[comment]: <> (![poster]&#40;../assets/rameo/poster.jpg&#41;)
 
 ## ☕ Java基础
 - [Vuex](/JS/vue/Vuex.md)

@@ -1,9 +1,10 @@
 <!-- - [:octocat: 首页](/README) -->
 
 - **Cesium**
-    - [Cesium发展历史](/Cesium/cesium发展历史.md)
-    - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
-    - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
+- [Cesium](/Cesium/README.md)
+  - [Cesium发展历史](/Cesium/cesium发展历史.md)
+  - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
+  - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
 - **GIS**
     - [GIS概论](/GIS/GIS概论.md)
     - [GIS坐标系](/GIS/GIS坐标系.md)
@@ -35,9 +36,8 @@
 [comment]: <> (    - [以五子棋为例硬撸稀疏数组]&#40;/Algorithm/以五子棋为例硬撸稀疏数组.md&#41;)
 
 [comment]: <> (    - [撸一撸限流算法]&#40;/Algorithm/撸一撸限流算法.md&#41;)
-- **数据库**
-
-[comment]: <> (    - [MySQL查看数据库容量]&#40;/Database/MySQL查看数据库容量.md&#41;)
+- **深度学习**
+    - [变分自编码器](/DeepLearning/AutoEncode/变分自编码器.md)
 - **JavaScript**
     - [Vuex](/JS/vue/Vuex.md)
 

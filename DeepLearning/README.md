@@ -1,13 +1,16 @@
-# 📚 Java
+# 📚 深度学习
 ![logo](../assert/cgnb/logo.png)
 
 [comment]: <> (![poster]&#40;../assets/rameo/poster.jpg&#41;)
 
-## ☕ Java基础
-- [Java](/Java/Java发展史.md)
-- [Java基础语法](/Java/Java基础语法.md)
-- [Java数组概念](/Java/Java数组概念.md)
-- [Java流程控制语句](/Java/Java流程控制语句.md)
+## ☕ 深度学习
+- [变分自编码器](/DeepLearning/AutoEncode/变分自编码器.md)
+
+[comment]: <> (- [如何撸一个mini线程池]&#40;/Java/如何撸一个mini线程池.md&#41;)
+
+[comment]: <> (- [优雅的对象转换-MapStruct]&#40;/Java/优雅的对象转换-MapStruct.md&#41;)
+
+[comment]: <> (- [Spring实用代码技巧]&#40;/Java/Spring/Spring实用代码技巧.md&#41;)
 
 [comment]: <> (- [RedisTemplate使用不当导致的线上事故]&#40;/Java/Spring/RedisTemplate使用不当导致的线上事故.md&#41;)
 

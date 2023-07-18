@@ -2,7 +2,7 @@
 
 # 📚 GIS开发、升职加薪必备
 
-| Cesium        | GIS    | Java        | 算法               | 数据库      | JavaScript         | 架构设计    | 设计模式    | 实用技巧    | 开发规范     | 中间件              |
+| Cesium      | GIS       | Java          | 算法               | 深度学习      | JavaScript         | 架构设计    | 设计模式    | 实用技巧    | 开发规范     | 中间件              |
 | ----------- | ----------- | ----------- | ------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | ------------ | ------------------- |
 | [☕](#nav-1) | [💻](#nav-1) | [☁️](#nav-3) | [✏️](#nav-4) | [💾](#nav-5) | [📐](#nav-6) | [👑](#nav-7) | [🎯](#nav-8) | [🔧](#nav-9) | [📘](#nav-10) | [🚀](#nav-10) |
 
@@ -14,6 +14,14 @@
 - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
 - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
 - [Cesium面试题](/Cesium/Cesium面试题.md)
+- [Cesium+Vue2环境搭建视频](/Cesium/01/Cesium+Vue2环境搭建视频.md)
+- [CesiumAPI以及Viewer](/Cesium/01/CesiumAPI以及Viewer.md)
+- [Cesium中DataSource详细介绍及案例](/Cesium/01/Cesium中DataSource详细介绍及案例.md)
+- [Cesium中EntityCollection详细介绍](/Cesium/01/Cesium中EntityCollection详细介绍.md)
+- [Cesium中material材质](/Cesium/01/Cesium中material材质.md)
+- [Cesium中Math介绍](/Cesium/01/Cesium中Math介绍.md)
+- [Cesium中图元Primitive详细介绍](/Cesium/01/Cesium中图元Primitive详细介绍.md)
+- [Cesium中坐标系介绍](/Cesium/01/Cesium中坐标系介绍.md)
 
 [comment]: <> (- [DevOps初学指南]&#40;/Architect/DevOps初学指南.md&#41;)
 
@@ -52,7 +60,8 @@
 ## 💻 操作系统
 <span id="nav-3"></span>
 
-## ☁️ 网络
+## ☁️ 深度学习
+- [变分自编码器](/DeepLearning/AutoEncode/变分自编码器.md)
 <span id="nav-4"></span>
 
 ## ✏️ 算法
