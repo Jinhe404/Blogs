@@ -1,20 +1,16 @@
 <!-- - [:octocat: 首页](/README) -->
 
 - **Cesium**
-- [Cesium](/Cesium/README.md)
-  - [Cesium发展历史](/Cesium/cesium发展历史.md)
-  - [Cesium+vue环境搭建](/Cesium/Cesium+vue环境搭建.md)
-  - [Cesium+Vue3+vite环境搭建](/Cesium/Cesium+Vue3+vite环境搭建.md)
+  - [Cesium目录](/Cesium/README.md)
+
 - **GIS**
     - [GIS概论](/GIS/GIS概论.md)
     - [GIS坐标系](/GIS/GIS坐标系.md)
 
 <!-- - :memo: 目录 -->
 - **Java**
-    - [Java发展史](/Java/Java发展史.md)
-    - [Java基础语法](/Java/Java基础语法.md)
-    - [Java数组概念](/Java/Java数组概念.md)
-    - [Java流程控制语句](/Java/Java流程控制语句.md)
+    - [Java目录](/Java/README.md)
+
 
 [comment]: <> (    - [RedisTemplate使用不当导致的线上事故]&#40;/Java/Spring/RedisTemplate使用不当导致的线上事故.md&#41;)
 
@@ -39,7 +35,7 @@
 - **深度学习**
     - [变分自编码器](/DeepLearning/AutoEncode/变分自编码器.md)
 - **JavaScript**
-    - [Vuex](/JS/vue/Vuex.md)
+    - [JS目录](/JS/README.md)
 
 [comment]: <> (    - [UML统一建模语言]&#40;/UML/UML统一建模语言.md&#41;)
 
