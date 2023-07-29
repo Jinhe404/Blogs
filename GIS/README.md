@@ -20,12 +20,12 @@
 ## 📐 地理信息系统
 - [1.地理信息系统（GIS）系列——绪论](/GIS/gis/1.GIS基础/2.地理信息系统/1.地理信息系统（GIS）系列——绪论.md)
 - [2.地理信息系统（GIS）系列——Dojo 基础](/GIS/gis/1.GIS基础/2.地理信息系统/2.地理信息系统（GIS）系列——Dojo基础.md)
-- [3.地理信息系统（GIS）系列——ArcGIS API for JavaScript 3.9](/GIS/gis/1.GIS基础/2.地理信息系统/3.地理信息系统（GIS）系列——ArcGIS API for JavaScript 3.9.md)
+- [3.地理信息系统（GIS）系列——ArcGIS API for JavaScript 3.9](/GIS/gis/1.GIS基础/2.地理信息系统/3.地理信息系统（GIS）系列——ArcGISAPIforavaScript3.9.md)
 - [4.地理信息系统（GIS）系列——ArcGIS中的各种图层](/GIS/gis/1.GIS基础/2.地理信息系统/4.地理信息系统（GIS）系列——ArcGIS中的各种图层.md)
-- [5.地理信息系统（GIS）系列——Portal for ArcGIS.md](/GIS/gis/1.GIS基础/2.地理信息系统/5.地理信息系统（GIS）系列——Portal for ArcGIS.md)
+- [5.地理信息系统（GIS）系列——Portal for ArcGIS.md](/GIS/gis/1.GIS基础/2.地理信息系统/5.地理信息系统（GIS）系列——PortalforArcGIS.md)
 - [6.地理信息系统（GIS）系列——专题图.md](/GIS/gis/1.GIS基础/2.地理信息系统/6.地理信息系统（GIS）系列——专题图.md)
 - [7.地理信息系统（GIS）系列——GeometryService 与 Geoprocessing](/GIS/gis/1.GIS基础/2.地理信息系统/7.地理信息系统（GIS）系列——GeometryService与Geoprocessing.md)
-- [8.地理信息系统（GIS）系列——ArcGIS API for JavaScript 4.x 调用 GP 服务](/GIS/gis/1.GIS基础/2.地理信息系统/8.地理信息系统（GIS）系列——ArcGIS API for JavaScript 4.x调用GP服务.md)
+- [8.地理信息系统（GIS）系列——ArcGIS API for JavaScript 4.x 调用 GP 服务](/GIS/gis/1.GIS基础/2.地理信息系统/8.地理信息系统（GIS）系列——ArcGISAPIforJavaScript4.x调用GP服务.md)
 - [9.地理信息系统（GIS）系列——ArcGIS 开发的各种示例](/GIS/gis/1.GIS基础/2.地理信息系统/9.地理信息系统（GIS）系列——ArcGIS开发的各种示例.md)
 ## 📐 GeoJSON
 - [GeoJSON格式规范说明](/GIS/gis/1.GIS基础/1.GeoJSON/GeoJSON格式规范说明.md)
